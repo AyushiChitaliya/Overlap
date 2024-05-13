@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.bg-img{
+    background-image: url("Overlap_img/overlap-slide-1-2.jpg");
+    background-attachment: fixed;
+    height: 800px;
+    z-index: 44;
+    background-size: cover;
+}
+.bg-over{
+    background-color: #211f1e;
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    opacity: 0.8;
+}
+.z{
+    position: relative;
+    z-index: 999;
+}
+.bg-nav{
+    background-color: #282828;
+    opacity: 0.8;
+}
+.zx{
+    z-index: 1000;
+}
+.text-img{
+    position: absolute;
+    top: 150px;
+    left: 32%;
+}
+.logo{
+    width: 33%;
+    height: 100%;
+}
+.nav-font{
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.navbar-light a{
+    color: #fff !important;
+}
+.nav-link{
+    padding-left: 15px !important;
+    padding-right: 10px !important;
+}
+.drop-font{
+    font-size: 13px !important;
+}
+.home-color{
+    color: #b9a06f !important;
+}
+.navbar-light a:hover{
+    color: #b9a06f !important;
+}
+.dropdown-menu{
+    background-color: #262626 !important;
+    width: 190px !important;
+}
+.dropdown-menu li a{
+    color: #aaa !important;
+}
+.dropdown-item:hover{
+    color: #b9a06f !important;
+}
+.pb-90{
+    padding-bottom: 90px;   
+}
+.col-4 img:hover ,.card-img .col-3 img:hover{
+    box-shadow: 0 0 20px #999;
+    transition: all 0.3s;
+}
+.bac-fixed{
+    background-attachment: fixed;
+}
+.h2-text{
+    font-size: 100px;
+    color: #fff;
+    font-family: Playfair Display;
+    font-weight: 700;
+}
+.p-text{
+    font-size: 24px;
+    color: #b9a06f;
+    font-family: Oswald;
+    font-weight: 300;
+    margin-top: -8px;
+}
+.bg-card-img img{
+    background-attachment: scroll;
+    height: 630px;
+}
+.template i{
+    color: #b9a06f;
+    font-size: 60px;
+    position: relative;
+    top: 150px;
+}
+.template h4{
+    line-height: 1.3;
+    color: #fff;
+    position: relative;
+    font-weight: 400;
+    text-align: justify;
+    top: 170px;
+}
+.template-position{
+    position: relative;
+    top: 100px;
+}
+.wood{
+    position: relative;
+    top: 100px;
+}
+@media only screen and (min-width: 992px) {
+    .w-heading.heading-4:before {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 200px;
+        background: #000;
+        margin: 0 auto 10px;
+    }
+}
+.container{
+    max-width: 1140px !important;
+}
+.heading-title{
+    font-size: 58px;
+    font-family: Playfair Display;
+    color: black;
+}
+.subheading{
+    color: #b9a06f;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.bg-white{
+    background-color: #fff !important;
+}
+.bg-black{
+    background-color: black !important;
+}
+.heading{
+    position: relative;
+    top: 240px;
+    z-index: 50;
+}
+.card-img{
+    top: 290px;
+}
+.bg-box{
+    height: 380px;
+}
+.bg-dog-wrapper{
+    background-image: url("Overlap_img/overlap-bg-055.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 44;
+    width: 100%;
+    height: 200%;
+}
+.bg-dog-overly{
+    height: 470px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 4448px;
+    background-color: #23264081;
+}
+.dog-btn{
+    color: #fff !important;
+    font-family: Montserrat;
+    border: none !important;
+}
+.btn{
+    background-color: #000 !important;
+}
+.w-space{
+    height: 164px;
+}
+.w-space-20{
+    height: 20px;
+}
+.w-custom-heading{
+    color: #fff;
+    font-family: Playfair Display;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.dog-btn:hover{
+    background-color: #3e3d3d !important;
+    border: none !important;
+    transition: all 0.4s;
+}
+.p{
+    padding: 0 !important;
+}
+.text-right{
+    text-align: right !important;
+    right: -35px;
+}
+.text-top{
+    top: -50px;
+    z-index: 50;
+}
+.text-left{
+    text-align: left !important;
+    left: -40px;
+}
+.w-overlap-box{
+    width: 100%;
+    padding: 5% !important;
+    z-index: 50;
+    position: relative;
+}
+.p-card{
+    color: #555;
+    word-spacing: -1px;
+}
+.bg-wood-img{
+    background-image: url("Overlap_img/overlap-bg-011.jpg");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+.wood-top h2{
+    color: #fff;
+}
+.wood-top{
+    top: 20%;
+}      
+.wood-end{
+    top: 53%;
+}
+.w-separator{
+    color: #b7a075;
+    width: 10%;
+}
+.w-border-left, .w-border-right{
+    border-top-width: 3px;
+    border-color: #b7a075;
+    width: 100%;
+}
+.p-wood{
+    color: #d9d2d2;
+}
+.ice-box{
+    height: 600px;
+}
+.bg-ice-img{
+    background-image: url("Overlap_img/overlap-bg-034-3.jpg");
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+}
+.footer i{
+    color: #b7a075;
+    font-size: 60px;    
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.footer h4{
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.ice-contant{
+    top: 30%;
+}
+.footer-mid button{
+    padding: 8px 37px;
+    color: #fff;
+}
+.btn-1{
+    background-color: transparent;
+    border: 1px solid #b7a075;
+}
+.btn-1:hover{
+    background-color: #b7a075;
+    transition: all 0.3s;
+}
+.btn-2{
+    background-color: #b7a075;
+    color: #fff;
+    border: 1px solid #b7a075;
+}
+.btn-2:hover{
+    background-color: transparent;
+    transition: all 0.3s;
+}
+.footer-mid p{
+    color: #555;
+}
+.footer-mid a{
+    text-decoration: none;
+    color: #b9a06f;
+}
+.footer-mid a:hover{
+    color: #555;
+    transition: all 0.3s;
+}
+.p-70{
+    padding-bottom: 70px;
+}
+/* .fa-bars::before{
+    display: none;
+}  */
+@media screen and (max-width:1024px){
+    .logo{
+        width: 80%; 
+    }
+    .magnifying-glass{
+        display: none;
+    }
+    .ellipsis{
+        display: none;
+    }
+    .img-text-1{
+        left: 23%;
+    }
+    .bg-dog-overly{
+        top: 3588px;   /*3588*/
+    }
+    .fa-bars::before{
+        display: block;
+    }
+    /* .media-menu{
+        display: none;
+    } */
+    .text-right{
+        right: 0px;
+    }
+}
+/* @media (min-width:1024px) and (max-width:768px){
+    .bg-dog-overly{
+        top: 2960px;
+    }\
+    .img-text-1{
+        left: 15%;
+} */
+/* @media (min-width:1024px) and (max-width:1440px){
+    .bg-dog-overly{
+        top: 4310px;
+    }
+} */
